@@ -1,3 +1,3 @@
 package io.github.iepi.roulette
 
-trait Strategy extends ((Int, Int) => Bet)
+trait Strategy extends ((Int, Int) => List[Bet])
